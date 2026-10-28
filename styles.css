@@ -2,14 +2,27 @@
 /* ---------- ELEMENT SELECTORS ---------- */
 /* These style every <body>, <h1>, <section>, etc. on the page */
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    color:rgb(215, 250, 215)
-    background-color: 
+    color: rgb(215, 250, 215);
+    background-color: black;
 }
+
 h1 {
-    margin: 1px
+    margin: 1px;
 }
+
 section {
     padding: 2rem;
+}
+.food-trucks {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.food-trucks section {
+    text-align: center;
 }
